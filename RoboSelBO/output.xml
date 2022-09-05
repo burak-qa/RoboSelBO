@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on win32)" generated="20220905 14:18:32.174" rpa="false" schemaversion="3">
+<suite id="s1" name="Tour-Of" source="C:\Users\ESARIAHI\PycharmProjects\RoboSelBO\tour-of.robot">
+<kw name="Run Keywords" library="BuiltIn" type="SETUP">
+<arg>Initialize Test Data</arg>
+<arg>Configure Selenium</arg>
+<arg>Navigate To Homepage</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<kw name="Initialize Test Data">
+<msg timestamp="20220905 14:18:32.328" level="FAIL">No keyword with name 'Initialize Test Data' found.</msg>
+<status status="FAIL" starttime="20220905 14:18:32.328" endtime="20220905 14:18:32.328"/>
+</kw>
+<status status="FAIL" starttime="20220905 14:18:32.328" endtime="20220905 14:18:32.328"/>
+</kw>
+<test id="s1-t1" name="Create An Invoice" line="16">
+<status status="FAIL" starttime="20220905 14:18:32.328" endtime="20220905 14:18:32.328">Parent suite setup failed:
+No keyword with name 'Initialize Test Data' found.</status>
+</test>
+<kw name="Exit Selenium" type="TEARDOWN">
+<msg timestamp="20220905 14:18:32.328" level="FAIL">No keyword with name 'Exit Selenium' found.</msg>
+<status status="FAIL" starttime="20220905 14:18:32.328" endtime="20220905 14:18:32.328">No keyword with name 'Exit Selenium' found.</status>
+</kw>
+<status status="FAIL" starttime="20220905 14:18:32.174" endtime="20220905 14:18:32.328">Suite setup failed:
+No keyword with name 'Initialize Test Data' found.
+
+Also suite teardown failed:
+No keyword with name 'Exit Selenium' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tour-Of">Tour-Of</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220905 14:18:32.312" level="ERROR">Error in file 'C:\Users\ESARIAHI\PycharmProjects\RoboSelBO\tour-of.robot' on line 6: Resource file 'resources.robot' does not exist.</msg>
+<msg timestamp="20220905 14:18:32.312" level="ERROR">Error in file 'C:\Users\ESARIAHI\PycharmProjects\RoboSelBO\tour-of.robot' on line 7: Resource file 'invoice-details-page.robot' does not exist.</msg>
+<msg timestamp="20220905 14:18:32.312" level="ERROR">Error in file 'C:\Users\ESARIAHI\PycharmProjects\RoboSelBO\tour-of.robot' on line 8: Resource file 'navigation.robot' does not exist.</msg>
+<msg timestamp="20220905 14:18:32.312" level="ERROR">Error in file 'C:\Users\ESARIAHI\PycharmProjects\RoboSelBO\tour-of.robot' on line 9: Resource file 'system.robot' does not exist.</msg>
+<msg timestamp="20220905 14:18:32.328" level="ERROR">Error in file 'C:\Users\ESARIAHI\PycharmProjects\RoboSelBO\tour-of.robot' on line 10: Resource file 'data.robot' does not exist.</msg>
+</errors>
+</robot>
